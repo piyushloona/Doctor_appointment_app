@@ -11,6 +11,7 @@ export interface Appointment {
   time_slot:string;
 }
 
+
 interface AppointmentsState {
   appointments: Appointment[];
   loading: boolean;
